@@ -1,0 +1,6 @@
+| Stage                     | Feature Count | Preprocessing               | Model               | ROC-AUC | Notes             |
+| ------------------------- | ------------- | --------------------------- | ------------------- | ------- | ----------------- |
+| Baseline                  | 20–25         | Basic imputation + Encoding | Logistic Regression | 0.72    | Raw data          |
+| After Preprocessing       | 25–30         | Scaling                     | Logistic Regression | 0.78    | Better stability  |
+| After Feature Engineering | 40–50         | Binning + Features          | Random Forest       | 0.85    | Major improvement |
+| After Feature Selection   | 20–25         | Filtering                   | Random Forest       | 0.84    | Simpler model     |
