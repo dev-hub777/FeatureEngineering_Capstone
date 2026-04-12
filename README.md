@@ -13,6 +13,7 @@ This project demonstrates a machine learning classification pipeline using synth
 - notebooks/
 - src/
 - requirements.txt
+- final comparision table
 - README.md
 
 ## How to Run
